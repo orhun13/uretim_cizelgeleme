@@ -1,1 +1,0 @@
-# uretim_cizelgeleme
