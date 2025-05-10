@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import timedelta
 import plotly.express as px
 
-st.title("Gün Bazlı Üretim Çizelgeleme - Job-shop Optimizasyonu")
+st.title("Gün Bazlı Üretim Çizelgeleme - Job-Shop Optimizasyonu - Orhun")
 
 def kontrol_et_zaman(df, sayfa_adi):
     df['Başlangıç_Parsed'] = pd.to_datetime(df['Başlangıç'], errors='coerce')
